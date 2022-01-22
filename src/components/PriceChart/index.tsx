@@ -27,7 +27,7 @@ const PriceChart = () => {
       options: {},
     });
 
-    return () => chart.destroy();
+    return () => chart.destroy && chart.destroy();
   }, [data]);
 
   return (

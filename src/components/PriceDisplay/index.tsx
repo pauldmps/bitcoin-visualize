@@ -18,8 +18,8 @@ const PriceDisplay = () => {
 
   return (
     <Wrapper>
-      <PriceWrapper>{price}</PriceWrapper>
-      <CurrencyWrapper>
+      <PriceWrapper data-testid="price-label">{price}</PriceWrapper>
+      <CurrencyWrapper data-testid="currency-select">
         <Select
           options={currencies.map((currency) => ({
             label: currency,

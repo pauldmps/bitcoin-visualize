@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceChart component tests it renders correctly 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL cYOTqU"
+  >
+    <canvas
+      height="400"
+      id="priceChart"
+      width="400"
+    />
+  </div>
+</div>
+`;
